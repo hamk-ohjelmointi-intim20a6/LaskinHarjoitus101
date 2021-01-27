@@ -16,7 +16,8 @@ namespace LaskinHarjoitus101
             Console.WriteLine(summa);
 
             Console.WriteLine("Lasketaan kahden luvun erotus");
-            int erotus = 5 - 3;
+            var laskin = new Laskin();
+            int erotus = laskin.Erotus(6, 8);
             Console.WriteLine(erotus);
              
             Console.ReadLine();
