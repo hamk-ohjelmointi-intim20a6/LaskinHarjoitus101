@@ -9,14 +9,16 @@ namespace LaskinHarjoitus101
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Laskin harjoitus -ohjelma");
+        { 
 
             Console.WriteLine("Lasketaan kahden luvun summa");
             int summa = 5 + 3;
             Console.WriteLine(summa);
 
-
+            Console.WriteLine("Lasketaan kahden luvun erotus");
+            int erotus = 5 - 3;
+            Console.WriteLine(erotus);
+             
             Console.ReadLine();
         }
     }
