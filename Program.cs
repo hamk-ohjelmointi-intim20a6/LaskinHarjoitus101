@@ -11,6 +11,12 @@ namespace LaskinHarjoitus101
         static void Main(string[] args)
         {
             Console.WriteLine("Laskin harjoitus -ohjelma");
+
+            Console.WriteLine("Lasketaan kahden luvun summa");
+            int summa = 5 + 3;
+            Console.WriteLine(summa);
+
+
             Console.ReadLine();
         }
     }
