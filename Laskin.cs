@@ -18,6 +18,19 @@ namespace LaskinHarjoitus101
         {
             return luku1 - luku2;
         }
+        
+        // Metodi laskee summan kahdelle luvulle.
+        public int Summa(int luku1, int luku2)
+        {
+            return luku1 + luku2;
+        }
+        
+        // Metodi laskee jakojäännöksen kahdelle luvulle.
+        //
+        public int Jakojaannos(int luku1, int luku2)
+        {
+            return luku1 / luku2;
+        }
 
         /// <summary>
         /// Metodi laskee tulon kahdelle luvulle.
