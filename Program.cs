@@ -18,8 +18,8 @@ namespace LaskinHarjoitus101
             Console.WriteLine("Lasketaan kahden luvun erotus");
             var laskin = new Laskin();
             int erotus = laskin.Erotus(6, 8);
+
             Console.WriteLine(erotus);
-             
             Console.ReadLine();
         }
     }
